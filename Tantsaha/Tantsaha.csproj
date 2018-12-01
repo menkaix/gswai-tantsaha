@@ -301,6 +301,15 @@
     <Compile Include="Assets\Scripts\DataManager.cs" />
     <Compile Include="Assets\Scripts\RegionSelector.cs" />
     <Compile Include="Assets\Scripts\SemanceSelactor.cs" />
+    <Compile Include="Assets\Scripts\UI\AutoAjustScroll.cs" />
+    <Compile Include="Assets\Scripts\UI\DontDestroy.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIScreen.cs" />
+    <Compile Include="Assets\Scripts\UI\UIScreenManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UserAnswer.cs" />
+    <Compile Include="Assets\Scripts\UI\UserDialog.cs" />
+    <Compile Include="Assets\Scripts\Utils\ReadableList.cs" />
+    <Compile Include="Assets\Scripts\Utils\ReadableStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
