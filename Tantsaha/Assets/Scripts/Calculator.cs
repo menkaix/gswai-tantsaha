@@ -20,9 +20,11 @@ public class Calculator : MonoBehaviour {
 	public void changeSemence()
 	{
 		float semance = float.Parse(semenceField.text);
-		
+
+		float factorEngrais = engrais.Equals("SIMIKA") ? 1 : 1.25f; //valeur arbitraire
+
 		float surface = (semance / 50);
-		float intrant = (surface * 150);
+		float intrant = (surface * 150) * factorEngrais;
 		float production = ((semance * 5000) / 50);
 
 		engraisField.text = intrant + "";
@@ -34,8 +36,10 @@ public class Calculator : MonoBehaviour {
 	{
 		float surface = float.Parse(sufaceField.text);
 
+		float factorEngrais = engrais.Equals("SIMIKA") ? 1 : 1.25f; //valeur arbitraire
+
 		float semance = (surface * 50);
-		float intrant = (surface * 150);
+		float intrant = (surface * 150) * factorEngrais;
 		float production = ((semance * 5000) / 50);
 
 		engraisField.text = intrant + "";
@@ -47,9 +51,11 @@ public class Calculator : MonoBehaviour {
 	{
 		float production = float.Parse(productionField.text);
 
+		float factorEngrais = engrais.Equals("SIMIKA") ? 1 : 1.25f; //valeur arbitraire
+
 		float semance = ((production * 50) / 5000);
 		float surface = (semance / 50);
-		float intrant = (surface * 150);
+		float intrant = (surface * 150) * factorEngrais;
 
 		semenceField.text = semance + "";
 		sufaceField.text = surface + "";

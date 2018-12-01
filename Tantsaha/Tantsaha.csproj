@@ -299,6 +299,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Calculator.cs" />
     <Compile Include="Assets\Scripts\DataManager.cs" />
+    <Compile Include="Assets\Scripts\PopUpElement.cs" />
+    <Compile Include="Assets\Scripts\PopUpManager.cs" />
     <Compile Include="Assets\Scripts\RegionSelector.cs" />
     <Compile Include="Assets\Scripts\SemanceSelactor.cs" />
     <Compile Include="Assets\Scripts\UI\AutoAjustScroll.cs" />
